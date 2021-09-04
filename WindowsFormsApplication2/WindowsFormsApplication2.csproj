@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8B05983B-0105-4D6D-BC87-DC60F9097C36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication2</RootNamespace>
+    <AssemblyName>WindowsFormsApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="maklerDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>maklerDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="maklerDataSet.xsc">
+      <DependentUpon>maklerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet.xss">
+      <DependentUpon>maklerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet1.xsc">
+      <DependentUpon>maklerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet1.xss">
+      <DependentUpon>maklerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet10.xsc">
+      <DependentUpon>maklerDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet10.xss">
+      <DependentUpon>maklerDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet11.xsc">
+      <DependentUpon>maklerDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet11.xss">
+      <DependentUpon>maklerDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet12.xsc">
+      <DependentUpon>maklerDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet12.xss">
+      <DependentUpon>maklerDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet13.xsc">
+      <DependentUpon>maklerDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet13.xss">
+      <DependentUpon>maklerDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet14.xsc">
+      <DependentUpon>maklerDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet14.xss">
+      <DependentUpon>maklerDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet15.xsc">
+      <DependentUpon>maklerDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet15.xss">
+      <DependentUpon>maklerDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet16.xsc">
+      <DependentUpon>maklerDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet16.xss">
+      <DependentUpon>maklerDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet17.xsc">
+      <DependentUpon>maklerDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet17.xss">
+      <DependentUpon>maklerDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet18.xsc">
+      <DependentUpon>maklerDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet18.xss">
+      <DependentUpon>maklerDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet19.xsc">
+      <DependentUpon>maklerDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet19.xss">
+      <DependentUpon>maklerDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet2.xsc">
+      <DependentUpon>maklerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet2.xss">
+      <DependentUpon>maklerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet3.xsc">
+      <DependentUpon>maklerDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet3.xss">
+      <DependentUpon>maklerDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet4.xsc">
+      <DependentUpon>maklerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet4.xss">
+      <DependentUpon>maklerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet5.xsc">
+      <DependentUpon>maklerDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet5.xss">
+      <DependentUpon>maklerDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet6.xsc">
+      <DependentUpon>maklerDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet6.xss">
+      <DependentUpon>maklerDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet7.xsc">
+      <DependentUpon>maklerDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet7.xss">
+      <DependentUpon>maklerDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet8.xsc">
+      <DependentUpon>maklerDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet8.xss">
+      <DependentUpon>maklerDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet9.xsc">
+      <DependentUpon>maklerDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="maklerDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>maklerDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="maklerDataSet9.xss">
+      <DependentUpon>maklerDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
